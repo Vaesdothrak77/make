@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <nav class="menu__container">
+            <ul class="menu__list">
+              <a href="tel:+79591382741" style="text-decoration: none">
+                <li class="menu__item">+7(959)138-27-41</li>
+              </a>
+              <div class="social__link">
+                <a
+                  target="_blank"
+                  href="https://instagram.com/kvladisa_brows?igshid=YmMyMTA2M2Y"
+                  ><li class="menu__item">
+                    <img src="./img/social/icons8-instagram.svg" alt="" /></li
+                ></a>
+                <a target="_blank" href="https://vk.com/kazarinaaa"
+                  ><li class="menu__item">
+                    <img src="./img/social/icons8-vk-com-94.png" alt="" /></li
+                ></a>
+              </div>
+            </ul>
+          </nav>
+          <img data-speed=".6" class="hero" src="img/bubk2.jpg" alt="Alt" />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="main-title">Красота бровей</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="img/work/1.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/2.jpg" alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="img/work/6.jpg" alt="Alt" />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="img/work/4.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/5.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/3.jpg" alt="Alt" />
+              </div>
+            </main>
+            <section class="price-list">
+              <h2 class="price__list">Прайс-лист</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Услуга</th>
+                    <th>Цена</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Консультация</td>
+                    <td>500 рублей</td>
+                  </tr>
+                  <tr>
+                    <td>Разработка дизайна</td>
+                    <td>от 5000 рублей</td>
+                  </tr>
+                  <tr>
+                    <td>Верстка сайта</td>
+                    <td>от 10 000 рублей</td>
+                  </tr>
+                  <tr>
+                    <td>SEO-оптимизация</td>
+                    <td>от 3000 рублей</td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <form class="contact-form">
+              <label for="name">Имя:</label>
+              <input type="text" id="name" name="name" class="contact-form__input" required>
+            
+              <label for="email">Почта:</label>
+              <input type="email" id="email" name="email" class="contact-form__input" required>
+            
+              <label for="phone">Номер телефона:</label>
+              <input type="tel" id="phone" name="phone" class="contact-form__input" required>
+            
+              <button type="submit" class="contact-form__submit">Отправить</button>
+            </form>
+            
+            
+            <footer class="footer">
+              <div class="footer__container">
+                <div class="footer__items">
+                  <div class="footer__item">г.Брянка</div>
+                  <div class="footer__item">ул. Белорусская 9/12</div>
+                  <div class="footer__item">
+                    <a href="tel:+79591382741" style="text-decoration: none">
+                      +7(959)138-27-41
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
